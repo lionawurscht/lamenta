@@ -1,0 +1,3 @@
+[submodule "vendor/sass-boilerplate"]
+	path = vendor/sass-boilerplate
+	url = https://github.com/HugoGiraudel/sass-boilerplate
