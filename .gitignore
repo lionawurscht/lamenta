@@ -1,1 +1,3 @@
 .sass-cache
+.doit.db
+__pycache__/
