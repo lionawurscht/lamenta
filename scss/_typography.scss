@@ -1,0 +1,116 @@
+/**
+ * Basic typography style for copy text
+ */
+
+body {
+  color: $text-color;
+  font-family: $text-font-stack;
+  font-size: floor($font-size-base * 0.85);
+
+  @include respond-to(xsmall) {
+      font-size: floor($font-size-base * 0.9)
+  }
+
+  @include respond-to(small) {
+      font-size: $font-size-base;
+  }
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    margin-top: 1.3em;
+    margin-bottom: 0.8em;
+
+    font-family: $decorative-font-stack;
+    font-weight: 500;
+
+    color: $font-color-decorative;
+
+    .header-section-number {
+        margin-right: 0.5em;
+    }
+}
+
+h1 { font-size: $font-size-h1; }
+h2 { font-size: $font-size-h2; }
+h3 { font-size: $font-size-h3; }
+h4 { font-size: $font-size-h4; }
+h5 { font-size: $font-size-h5; }
+h6 { font-size: $font-size-h6; }
+
+header { 
+    @include respond-to(small) {
+
+        font-size: $font-size-header;
+    }
+}
+
+a.active {
+    color: black;
+    font-weight: bold;
+}
+
+div.note {
+    font-size: 0.9em;
+}
+
+div.sourceCode,
+pre.sourceCode {
+    font-size: 0.7em;
+}
+
+div.sourceCode {
+    pre.sourceCode {
+        font-size: inherit;
+    }
+}
+pre.sourceCode code {
+    font-family: $code-font-stack;
+}
+
+p>code {
+    font-family: $code-font-stack;
+    font-size: 0.85em;
+}
+
+.admonition-title>p {
+    font-weight: 600;
+}
+
+header {
+    line-height: 1;
+    .author,
+    .date {
+        display: inline;
+        font-size: 0.9em;
+    }
+    margin-bottom: 2em;
+}
+
+#TOC {
+    & * {
+    font-family: $text-font-stack;
+    text-decoration: none;
+}
+    font-size: 1.1em;
+    line-height: 1.3;
+    ul {
+     list-style-type: none;
+    }
+    >ul {
+        ul {
+            padding-left: 1em;
+            font-size: 0.93em;
+        }
+    }
+
+    li>ul {
+        margin-bottom: 0.5em;
+        margin-top: 0.2em;
+    }
+
+    .toc-section-number {
+        margin-right: 0.5em;
+        color: $text-color;
+    }
+}
