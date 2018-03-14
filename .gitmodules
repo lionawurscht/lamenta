@@ -7,3 +7,6 @@
 [submodule "vendor/gumshoe"]
 	path = vendor/gumshoe
 	url = https://github.com/cferdinandi/gumshoe
+[submodule "vendor/sticky-sidebar"]
+	path = vendor/sticky-sidebar
+	url = https://github.com/abouolia/sticky-sidebar

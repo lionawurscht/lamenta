@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$"$if(dir)$ dir="$dir$"$endif$>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$" dir="$if(dir)$$dir$$endif$">
     <head>
         <meta charset="utf-8" />
         <meta name="generator" content="pandoc" />
@@ -15,6 +15,7 @@
         $endif$
         <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
         <style type="text/css">
+
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 span.underline{text-decoration: underline;}
