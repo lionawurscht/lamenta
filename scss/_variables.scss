@@ -4,15 +4,16 @@
 
 /// Regular font family
 /// @type List
-$text-font-stack: 'LubalinGraphEFCond', 'Rockwell', 'Courier Bold', 'Courier', 'Georgia', 'Times', 'Times New Roman', serif;
+$text-font-stack: 'LubalinGraphEFCond', 'Lucida Bright', 'Georgia', 'Times', 'Times New Roman', serif;
+
 
 /// Decorative font family
 /// @type List
-$decorative-font-stack: 'Museo', 'Rockwell', 'Courier Bold', 'Courier', 'Georgia', 'Times', 'Times New Roman', serif;
+$decorative-font-stack: 'Museo', 'Rockwell', 'Roboto Slab', 'Gill Sans', 'Gill Sans MT', 'Georgia', 'Times', 'Times New Roman', serif;
 
 /// Code (monospace) font family
 /// @type List
-$code-font-stack: 'Consolas', 'monaco', monospace;
+$code-font-stack: 'Consolas', 'Lucida Console', 'Lucida Sans Typewriter', 'monaco', 'Bitstream Vera Sans Mono', monospace;
 
 
 
